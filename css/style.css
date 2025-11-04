@@ -57,6 +57,10 @@
     color: #85878b;
 }
 
+.font-color-white{
+    color: white;
+}
+
 /* page rules */
 
 .toboolist-header{
@@ -82,7 +86,31 @@ header #logo {
 
 }
 
-.buttons{
-    padding: 20px;
+.wrapper{
     margin: 0 auto;
+    margin: 300px;
+    margin-top: 30px;
+}
+
+.buttons{
+    padding: 20px;    
+    border-bottom: 4px solid #f6f8fa;    
+}
+
+.task{
+    padding: 10px;
+    margin-left: 50px;
+    border-color: #43ace9;
+}
+
+.section{
+    padding: 10px;   
+    border-color: #d8d8d8; 
+    color: #d8d8d8;
+}
+
+.lists{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
