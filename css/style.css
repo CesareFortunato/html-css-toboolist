@@ -2,48 +2,87 @@
 
 * {
     max-resolution: 0;
-    box-sizing: border-box;   /* nella dimensione della width considero il padding */
+    box-sizing: border-box;
+    /* nella dimensione della width considero il padding */
     padding: 0;
 }
 
 /* utilities */
 
-.button-radius{
+.background-white{
+    background-color: white;
+}
+
+.background-body-color{
+    background-color: #f6f8fa;
+}
+
+.button-radius {
     border-radius: 5px;
 }
 
-.label-radius{
+.label-radius {
     border-radius: 10px;
 }
 
-.color-backgroud-blu{
+.color-backgroud-blu {
     background-color: #43ace9;
 }
 
-.color-backgroud-purple{
+.color-backgroud-purple {
     background-color: #926ed9
 }
 
-.color-backgroud-green{
+.color-backgroud-green {
     background-color: #68bea8;
 }
 
-.color-backgroud-orange{
+.color-backgroud-orange {
     background-color: #f1a041;
 }
 
-.color-backgroud-pink{
+.color-backgroud-pink {
     background-color: #d5639e;
 }
 
-.color-backgroud-olive{
+.color-backgroud-olive {
     background-color: #b0c82f;
 }
 
-.font-bold{
+.font-bold {
     font-weight: bold;
 }
 
-.font-color-gray{
+.font-color-gray {
     color: #85878b;
+}
+
+/* page rules */
+
+.toboolist-header{
+    padding-left: 15px;
+    height: 150px;
+    border-bottom: 50px solid #f6f8fa;   
+    margin-bottom: 30px;
+}
+
+header #logo {
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.toboolist-title{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 3rem;
+
+}
+
+.buttons{
+    padding: 20px;
+    margin: 0 auto;
 }
