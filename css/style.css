@@ -1,0 +1,49 @@
+/* reset css */
+
+* {
+    max-resolution: 0;
+    box-sizing: border-box;   /* nella dimensione della width considero il padding */
+    padding: 0;
+}
+
+/* utilities */
+
+.button-radius{
+    border-radius: 5px;
+}
+
+.label-radius{
+    border-radius: 10px;
+}
+
+.color-backgroud-blu{
+    background-color: #43ace9;
+}
+
+.color-backgroud-purple{
+    background-color: #926ed9
+}
+
+.color-backgroud-green{
+    background-color: #68bea8;
+}
+
+.color-backgroud-orange{
+    background-color: #f1a041;
+}
+
+.color-backgroud-pink{
+    background-color: #d5639e;
+}
+
+.color-backgroud-olive{
+    background-color: #b0c82f;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-color-gray{
+    color: #85878b;
+}
