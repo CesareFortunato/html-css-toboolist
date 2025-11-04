@@ -8,6 +8,9 @@
 }
 
 /* utilities */
+body{
+    font-family: "Roboto", sans-serif;
+}
 
 .background-white{
     background-color: white;
@@ -54,7 +57,7 @@
 }
 
 .font-color-gray {
-    color: #85878b;
+    color: #404448;
 }
 
 .font-color-white{
@@ -115,6 +118,45 @@ header #logo {
     padding-bottom: 50px;
 }
 
-.first-list{
+ul > li.first-list{
     font-size: 1.5rem;
+    color: #404448;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.first-list ul li {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #404448;
+}
+
+ul > li.first-list::marker {
+  content: "▼  ";     
+  font-size: 0.8rem; 
+  color: #404448;    
+}
+
+.second-list{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.labels{
+    font-size: 0.75rem;
+    padding: 5px;
+    color: white;
+}
+
+li.check::marker{
+  content: "✔  ";
+  color: #64b861;       
+  font-size: 1rem;
+}
+
+li.cross::marker {
+  content: "✖  ";
+  color: #eb5858;       
+  font-size: 1rem;
 }
